@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {  InputValueProvider}  from './ContextApi/ContextApi'
 
 ReactDOM.render(
   <React.StrictMode>
+    <InputValueProvider> 
     <App />
+    </InputValueProvider>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

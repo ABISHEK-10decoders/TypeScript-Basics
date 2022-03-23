@@ -1,0 +1,5 @@
+> Create AppState Action type,
+> Craete Type for the Provider,
+> Add App State and Action types to reducer,
+> Set the AppState and Action Types to createContext
+> Assign Provider props to Provider
